@@ -108,6 +108,7 @@ function displayWebSitePrompt() {
         type: "list",
         name: "type_web_site",
         message: "¿Con que quieres hacer la pagina web?",
+        prefix: "☢",
         choices: [
             "Vanilla",
             "Vite",
@@ -119,6 +120,7 @@ function displayVanillaPrompt() {
         type: "checkbox",
         name: "vanilla_options",
         message: "¿Que cosas quieres que tenga?",
+        prefix: "🌈",
         choices: [
             "TypeScript",
             "Boostrap"
@@ -130,6 +132,7 @@ function displayVitePrompt() {
         type: "list",
         name: "vite_options",
         message: "¿Que frameworks quieres usar?",
+        prefix: "⚜",
         choices: [
             "React",
             "Vue",
@@ -141,6 +144,7 @@ function displayViteReactPrompt() {
         type: "checkbox",
         name: "vite_react_options",
         message: "¿Que quieres que tenga?",
+        prefix: "🌀",
         choices: [
             "TypeScript",
             "Boostrap",
@@ -155,6 +159,7 @@ function displayViteVuePrompt() {
         type: "checkbox",
         name: "vite_vue_options",
         message: "¿Que quieres que tenga?",
+        prefix: "💻",
         choices: [
             "TypeScript",
             "Boostrap",
@@ -170,6 +175,7 @@ function displayDiscordBotPrompt() {
         type: "list",
         name: "discord_bot_lang",
         message: "¿Con que lenguaje quieres hacer el bot?",
+        prefix: "🤖",
         choices: [
             "Discord Bot con JavaScript",
             "Discord Bot con TypeScript"
@@ -183,6 +189,7 @@ function displayDiscordBotJsPrompt() {
         type: "checkbox",
         name: "discord_bot_js_options",
         message: "¿Que quieres que tenga?",
+        prefix: "🟨",
         choices: [
             "Conexión a MongoDB",
             "Api Rest",
@@ -197,6 +204,7 @@ function displayDiscordBotTsPrompt() {
         type: "checkbox",
         name: "discord_bot_ts_options",
         message: "¿Que quieres que tenga?",
+        prefix: "🟦",
         choices: [
             "Conexión a MongoDB",
             "Api Rest",
@@ -211,6 +219,7 @@ function displayApiPrompt() {
         type: "list",
         name: "api",
         message: "¿Con libreria quieres hacer la API?",
+        prefix: "📱",
         choices: [
             "Express"
         ]
@@ -221,6 +230,7 @@ function displayExpressPrompt() {
         type: "checkbox",
         name: "express_options",
         message: "¿Que quieres que tenga?",
+        prefix: "🖥",
         choices: [
             "TypeScript",
             "Conexión a MongoDB",
