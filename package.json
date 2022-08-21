@@ -1,10 +1,22 @@
 {
   "name": "ezdev",
-  "version": "dev-0.0.1",
+  "version": "0.0.1",
   "main": "src/index.js",
   "bin": "src/index.js",
   "license": "MIT",
   "type": "module",
+  "keywords": [
+    "ezdev",
+    "ezdev-cli",
+    "cli",
+    "javascript",
+    "yarn",
+    "npm",
+    "node",
+    "nodejs",
+    "node.js"
+  ],
+  "author": "MrMikeDev",
   "scripts": {
     "start": "node src/index.js"
   },
